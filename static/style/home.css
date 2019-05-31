@@ -1,0 +1,127 @@
+html{
+    background-color: black;
+}
+body {
+    background-color: black;
+}           
+header{
+    width:1200px;
+    height:95px;
+    background-color: black;
+}
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+}
+
+li h2 {
+    margin: 0px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 95%;
+    list-style-type: none;
+    overflow: hidden;
+    padding-inline-start: 0px;
+}
+
+li {
+    margin: 10px;
+    display: block;
+    float: left;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: 1px solid;
+    width: 240px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+li img {
+    width: 240px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+main{
+    width:900px;
+    margin:-1px auto 10px;
+    background-color:lightgray;
+}
+article{
+    float:left;
+    margin:30px 20px;
+    width:800px;
+}
+article p{
+    color: black;
+    font-size: 18px;
+}
+
+.apoio{ 
+    float:right;
+    width:300px;
+    margin-top:-10px;
+    margin-bottom: -20px;
+}		
+footer{ 
+    clear:both; 
+    width:890px; 
+    margin:0 auto; 
+    text-align:center; 
+    background-color:#ECECEC; 
+    padding:5px;
+}
+footer p{
+    color: black;
+    font-size:16px;
+}
+.h2-sobre{
+    color: black;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px white;
+}
+
+p, li{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:0.9em;
+    color:#555;
+    line-height:1.8;
+}
+
+nav{
+    width: 890px; 
+    background-color: #000101; 
+    font-size:20px; 
+    height: 40px; 
+    text-align: center;
+    padding: 5px;
+    box-shadow: inset 0 0 1em gray;
+}
+nav h1{
+    list-style:none; 
+    margin:0; 
+    padding:4px;
+}
+nav h1{ display:inline-block }
+nav h1{
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFF;
+    padding: 4px 20px;
+}
+nav ul li a:hover { background-color:lightgray;}
+
+nav h1{
+    padding-top: 8px;
+}
+
